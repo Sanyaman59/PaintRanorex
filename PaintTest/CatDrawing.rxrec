@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="58f5228c-3853-42d9-8256-7f4c644f1842"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CatDrawing"
+	namespace="PaintTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="CatDrawing"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="DrawCat"
+		namespace="PaintTest"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="f9c36b11-1e05-4f6d-8029-6ce1d508695b">
+			</arguments>
+		</userrecorditem>
+		<mouseitem
+		action="Down"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="238;72"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="2817c33d-286e-486b-a4cf-0ffb2bdd9f81"
+		sx="238"
+		sy="211"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="85e4c37b-0e92-4de7-b97d-53c536eb986d"
+			sourcename="Recorder">
+				<path>
+					/form[@title='Untitled - Paint']/?/element[@accessiblename='Using Oval tool on Canvas']
+				</path>
+				<robustPath>
+					/form[@title='Untitled - Paint']/?/?/element[@class='Afx:00007FF76BF60000:8']
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Up"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="719;391"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c980db1e-c6e8-4f06-b451-b3f481fd4b0a"
+		sx="719"
+		sy="530"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="85e4c37b-0e92-4de7-b97d-53c536eb986d"
+			sourcename="Recorder">
+				<path>
+					/form[@title='Untitled - Paint']/?/element[@accessiblename='Using Oval tool on Canvas']
+				</path>
+				<robustPath>
+					/form[@title='Untitled - Paint']/?/?/element[@class='Afx:00007FF76BF60000:8']
+				</robustPath>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="c0414d96-0f09-4dc6-a2c9-b11ce484db46"
+	name="PaintTestRepository"
+	relativepath="PaintTestRepository.rxrep">
+		<codegen
+		classname="PaintTestRepository"
+		namespace="PaintTest">
+		</codegen>
+		<rootfolder
+		id="d0bb2f35-8f85-4386-a4f8-aff17ade2c01"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CatDrawing.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
